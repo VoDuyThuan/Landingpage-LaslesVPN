@@ -1,3 +1,5 @@
+sass ./sass/app.scss ./css/app.css --watch
+
 01. Xây dựng khung dự án build với SCSS
     + Biến toàn cụ
     + reset css
