@@ -1,0 +1,170 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+
+input {
+  line-height: normal;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  line-height: 1;
+  font-family: "Rubik", sans-serif;
+  color: #4F5665;
+  font-weight: 400;
+}
+
+.button {
+  display: inline-block;
+  padding: 13px 45px;
+  border-radius: 100rem;
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.button--primary {
+  font-weight: 700;
+  background-color: #f53838;
+  color: white;
+}
+.button--outline {
+  background-color: transparent;
+  color: #f53838;
+  font-weight: 500;
+  border: 1px solid;
+}
+.button--rounded {
+  border-radius: 10px;
+  padding: 17px 65px;
+  position: relative;
+}
+.button--rounded:after {
+  content: "";
+  position: absolute;
+  border-radius: 10px;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 90%;
+  background: rgba(245, 56, 56, 0.35);
+  filter: blur(57px);
+  border-radius: 10px;
+  transform: translate(-50%, 50%);
+  z-index: -1;
+}
+
+.header {
+  margin-top: 50px;
+  padding-bottom: 90px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-auth {
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 0 30px;
+}
+.header-signin {
+  font-weight: 500;
+  color: #0B132A;
+}
+.header-signup {
+  padding: 13px 45px;
+  font-weight: 500;
+  border-radius: 100rem;
+  color: #f53838;
+  border: 1px solid;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0 45px;
+}
+.menu-link {
+  color: inherit;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.hero-content {
+  width: 100%;
+  max-width: 555px;
+  gap: 0 40px;
+}
+.hero-image {
+  position: absolute;
+  top: 50%;
+  transform: translate(40px, -50%);
+  right: 0;
+}
+.hero-heading {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 1.4;
+  color: #0B132A;
+}
+.hero-desc {
+  line-height: 1.875;
+  margin-bottom: 50px;
+}
+.hero strong {
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=app.css.map */
